@@ -1,0 +1,26 @@
+# Large data files
+data/
+results/
+# Model checkpoints
+results/lstm/models/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo 
