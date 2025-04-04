@@ -1,0 +1,10 @@
+,precision,recall,f1,pr_auc,threshold
+detour_ratio_0.05_level_1_prob_0.2.csv,1.0,1.0,1.0,1.0,18.540515899658203
+detour_ratio_0.05_level_2_prob_0.3.csv,1.0,1.0,1.0,1.0,18.540515899658203
+detour_ratio_0.05_level_3_prob_0.4.csv,1.0,1.0,1.0,1.0,18.540515899658203
+route_switch_ratio_0.05_level_1_prob_0.2.csv,1.0,1.0,1.0,1.0,18.540515899658203
+route_switch_ratio_0.05_level_2_prob_0.3.csv,1.0,1.0,1.0,1.0,18.540515899658203
+route_switch_ratio_0.05_level_3_prob_0.4.csv,1.0,1.0,1.0,1.0,18.540515899658203
+sharp_turn_ratio_0.05_level_1_prob_0.2.csv,1.0,1.0,1.0,1.0,18.540515899658203
+sharp_turn_ratio_0.05_level_2_prob_0.3.csv,1.0,1.0,1.0,1.0,18.540515899658203
+sharp_turn_ratio_0.05_level_3_prob_0.4.csv,1.0,1.0,1.0,0.9999999999999999,18.540515899658203

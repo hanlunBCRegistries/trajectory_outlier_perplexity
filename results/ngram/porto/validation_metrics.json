@@ -1,0 +1,13 @@
+{
+  "precision": 0.009000473709142587,
+  "recall": 0.009381557832366374,
+  "f1_score": 0.00918706557872469,
+  "true_positives": 76,
+  "false_positives": 8368,
+  "false_negatives": 8025,
+  "true_negatives": 152409,
+  "roc_auc": 0.38354876106737046,
+  "pr_auc": 0.035207002344136505,
+  "actual_outlier_count": 8101,
+  "detected_outlier_count": 8444
+}

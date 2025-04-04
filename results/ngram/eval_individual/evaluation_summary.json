@@ -1,0 +1,30 @@
+{
+    "route_switch_ratio_0.05_level_1_prob_0.2.csv": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 1.4754485363550518e-06,
+        "threshold": 4.226235936487985
+    },
+    "sharp_turn_ratio_0.05_level_1_prob_0.2.csv": {
+        "precision": 0.3164023312473129,
+        "recall": 0.6822641703793361,
+        "f1": 0.4323164413403719,
+        "pr_auc": 0.4369453180022851,
+        "threshold": 4.226235936487985
+    },
+    "sharp_turn_ratio_0.05_level_2_prob_0.3.csv": {
+        "precision": 0.4574605220754109,
+        "recall": 0.9262464975242775,
+        "f1": 0.6124435307852393,
+        "pr_auc": 0.8354921695430059,
+        "threshold": 4.226235936487985
+    },
+    "sharp_turn_ratio_0.05_level_3_prob_0.4.csv": {
+        "precision": 0.478041618792289,
+        "recall": 0.954342720867998,
+        "f1": 0.6370015735784632,
+        "pr_auc": 0.8834259672921965,
+        "threshold": 4.226235936487985
+    }
+}
