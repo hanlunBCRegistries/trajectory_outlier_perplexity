@@ -1,8 +1,6 @@
 # Large data files
 data/
-results/
 # Model checkpoints
-results/lstm/models/*.pt
 
 # Python
 __pycache__/
