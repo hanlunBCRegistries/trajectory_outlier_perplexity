@@ -19,7 +19,7 @@ Please Download the dataset from this link and unzip it as a csv file: https://w
 
 **Tokenization**
 
-To tokenize and generate outliers using the dataset please use this command: `python preprocess.py --data_dir /home/wang.hanl/trjactory_outlierness/data/porto/train.csv --min_traj_length 10 --out_dir ./data/porto`
+To tokenize and generate outliers using the dataset please use this command: `python preprocess.py --data_dir ./data/porto/train.csv --min_traj_length 10 --out_dir ./data/porto`
 
 
 **Train Models**
@@ -39,10 +39,10 @@ To train model in LSTM please use: `python train_lstm.py --data_dir ./data/porto
 
 To evaluate the models please use:
 
-N-gram: `python lstm_eval.py --model_file_path /home/wang.hanl/trjactory_outlierness/results/lstm/models/final_model_final.pt --include_outliers`
+N-gram: `python ngram_eval.py --model_file_path ./results/ngram/model.pkl --include_outliers`
 
 LSTM: `python lstm_eval.py \
-       --model_file_path /home/wang.hanl/trjactory_outlierness/results/lstm/models/final_model_final.pt \
+       --model_file_path ./results/lstm/models/final_model_final.pt \
        --include_outliers \
-       --data_dir ./data//home/wang.hanl/trjactory_outlierness/data/porto/train.csv \
+       --data_dir ./data/porto/train.csv \
        --output_dir ./results/lstm/eval_individual`
